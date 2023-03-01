@@ -34,12 +34,13 @@ export default {
 .card {
   box-sizing: border-box;
   font-family: Arial;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 3px solid #d96932;
+  border-radius: 15px;
   margin: 10px;
-  padding: 20px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   height: 100%;
+  overflow: hidden;
+  /*background: linear-gradient(90deg, rgba(31,68,86,0) 0%, rgba(31,68,86,0.6993391106442577) 100%);*/
 }
 
 .card-header {

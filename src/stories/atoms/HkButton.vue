@@ -50,20 +50,25 @@ export default {
 .button {
   padding: 0.5rem 1rem;
   border: none;
-  border-radius: 4px;
+  border-radius: 3px;
   font-size: 1rem;
   cursor: pointer;
   background-color: #ccc;
 }
 
+
 .button--primary {
-  background-color: #1ea7fd;
+  background-color: #d96932;
   color: #fff;
 }
 
 .button--secondary {
-  background-color: #f44336;
+  background-color: #d96932;
   color: #fff;
+  transition: all ease 500ms;
+}
+.button--secondary:hover{
+  padding: 0.5rem 1.5rem 0.5rem 1rem;
 }
 
 .button--small {

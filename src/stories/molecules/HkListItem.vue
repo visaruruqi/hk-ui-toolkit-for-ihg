@@ -66,7 +66,7 @@ export default {
 <style scoped>
   .hk-list-item-wrapper {
     box-sizing: border-box;
-    height: 200px;
+    height: fit-content;
   }
 
   .hk-list-item-wrapper .hk-list-item > img {
@@ -84,26 +84,30 @@ export default {
   }
 
   .hk-list-item-wrapper .hk-list-item .content {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
   }
   .hk-list-item-wrapper .hk-list-item .content .title {
-    padding-top:0px;
-    margin-top:0px;
+    margin: 0;
   }
   .hk-list-item-wrapper .hk-list-item .content .badge {
-    background-color: #19406e;
+    background-color: #1f4456;
     color: white;
     padding:5px;
     border-radius: 4px;
+    width: fit-content;
   }
   .hk-list-item-wrapper .hk-list-item .content .description {
-    margin-top: 20px;
   }
 
   .hk-list-item-wrapper .hk-list-item .action {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 15px;
     align-items: center;
+    border-left: 1px solid #a4a2a2;
   }
 </style>
