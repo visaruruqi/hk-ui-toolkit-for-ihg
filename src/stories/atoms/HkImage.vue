@@ -1,5 +1,11 @@
 <template>
-  <img :style="{width:widthPercent, height: heightPercent}"
+  <img :style="{width:widthPercent,
+  height: heightPercent,
+  'border-bottom-left-radius': bottomLeftRadius,
+  'border-bottom-right-radius': bottomRightRadius,
+  'border-top-left-radius':topLeftRadius,
+  'border-top-right-radius':topRightRadius
+  }"
        :src="imageUrl"
        :alt="altText"
        :title="titleText"
@@ -34,7 +40,23 @@ export default {
     heightPercent: {
       type: String,
       default: '100%'
-    }
+    },
+    bottomLeftRadius: {
+      type: String,
+      default: '0px'
+    },
+    bottomRightRadius: {
+      type: String,
+      default: '0px'
+    },
+    topLeftRadius: {
+      type: String,
+      default: '0px'
+    },
+    topRightRadius: {
+      type: String,
+      default: '0px'
+    },
   }
 }
 </script>

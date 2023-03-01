@@ -4,7 +4,10 @@
 
     <div class="hk-list-item">
 
-      <hk-image image-url="https://images.unsplash.com/photo-1559841644-08984562005a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2xlZXBpbmclMjByb29tfGVufDB8fDB8fA%3D%3D"
+      <hk-image
+          image-url="https://images.unsplash.com/photo-1559841644-08984562005a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2xlZXBpbmclMjByb29tfGVufDB8fDB8fA%3D%3D"
+          bottom-right-radius="0px"
+          top-right-radius="0px"
       />
 
       <div class="content">
